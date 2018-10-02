@@ -750,7 +750,7 @@ a:focus {
   --input-fore-color: #111;
   --input-border-color: #ddd;
   --input-focus-color: #0288d1;
-  --input-invalid-color: #d32f2f;
+  --input-invalid-color: #d3d02f;
   --button-back-color: #e2e2e2;
   --button-hover-back-color: #dcdcdc;
   --button-fore-color: #212121;
@@ -2418,15 +2418,15 @@ a.button.splash {
   left: 25vw;
   text-align: center;
   font-size: 1.25rem;
-  border-color: #f22f21;
+  border-color: #f2c521;
   background: rgba(255, 255, 255, 0.35);
   transition: all 0.3s
 }
 
 a.button.splash:hover {
-  background: #f22f21;
+  background: #f2c521;
   color: #f8f8f8;
-  border-color: #f22f21
+  border-color: #f2c521
 }
 
 @media screen and (min-width: 768px) {
@@ -2480,7 +2480,7 @@ a.button.splash:hover {
 }
 
 .primary-section {
-  background: #f22f21;
+  background: #f2b321;
   color: #fff
 }
 
