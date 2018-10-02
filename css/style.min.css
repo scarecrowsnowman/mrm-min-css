@@ -1119,7 +1119,7 @@ button.tertiary,
 .button.tertiary,
 [role="button"].tertiary {
   --button-back-color: #308732;
-  --button-fore-color: #f8f8f8
+  --button-fore-color: #f8f8f8;
 }
 
 button.tertiary:hover,
@@ -1134,7 +1134,7 @@ button.tertiary:focus,
 .button.tertiary:focus,
 [role="button"].tertiary:hover,
 [role="button"].tertiary:focus {
-  --button-hover-back-color: #277529
+  --button-hover-back-color: #277529;
 }
 
 button.inverse,
@@ -1159,7 +1159,7 @@ button.inverse:focus,
 .button.inverse:focus,
 [role="button"].inverse:hover,
 [role="button"].inverse:focus {
-  --button-hover-back-color: #111
+  --button-hover-back-color: #111;
 }
 
 button.small,
@@ -1199,7 +1199,7 @@ button.large,
   --drawer-back-color: #f8f8f8;
   --drawer-hover-back-color: #f0f0f0;
   --drawer-border-color: #ddd;
-  --drawer-close-color: #444
+  --drawer-close-color: #444;
 }
 
 header {
@@ -1425,7 +1425,7 @@ footer.sticky {
   [type="checkbox"].drawer:not(.persistent)+* {
     position: static;
     height: 100%;
-    z-index: 1100
+    z-index: 1100;
   }
   [type="checkbox"].drawer:not(.persistent)+* .drawer-close {
     display: none
@@ -1439,7 +1439,7 @@ footer.sticky {
   --table-head-fore-color: #111;
   --table-body-back-color: #f8f8f8;
   --table-body-fore-color: #111;
-  --table-body-alt-back-color: #eee
+  --table-body-alt-back-color: #eee;
 }
 
 table {
@@ -1672,7 +1672,7 @@ table.horizontal thead tr:first-child th:last-child {
 }
 
 :root {
-  --table-body-alt-back-color: #eee
+  --table-body-alt-back-color: #eee;
 }
 
 table.striped tr:nth-of-type(2n)>td {
@@ -1686,7 +1686,7 @@ table.striped tr:nth-of-type(2n)>td {
 }
 
 :root {
-  --table-body-hover-back-color: #90caf9
+  --table-body-hover-back-color: #90caf9;
 }
 
 table.hoverable tr:hover,
@@ -1707,7 +1707,7 @@ table.hoverable tr:focus>td {
 
 :root {
   --mark-back-color: #0277bd;
-  --mark-fore-color: #fafafa
+  --mark-fore-color: #fafafa;
 }
 
 mark {
@@ -1728,7 +1728,7 @@ mark.inline-block {
 
 :root {
   --toast-back-color: #424242;
-  --toast-fore-color: #fafafa
+  --toast-fore-color: #fafafa;
 }
 
 .toast {
@@ -1745,7 +1745,7 @@ mark.inline-block {
 
 :root {
   --tooltip-back-color: #212121;
-  --tooltip-fore-color: #fafafa
+  --tooltip-fore-color: #fafafa;
 }
 
 .tooltip {
@@ -1821,7 +1821,7 @@ mark.inline-block {
 :root {
   --modal-overlay-color: rgba(0, 0, 0, 0.45);
   --modal-close-color: #444;
-  --modal-close-hover-color: #f0f0f0
+  --modal-close-hover-color: #f0f0f0;
 }
 
 [type="checkbox"].modal {
@@ -1897,7 +1897,7 @@ mark.inline-block {
   --collapse-selected-label-back-color: #ececec;
   --collapse-border-color: #ddd;
   --collapse-content-back-color: #fafafa;
-  --collapse-selected-label-border-color: #0277bd
+  --collapse-selected-label-border-color: #0277bd;
 }
 
 .collapse {
@@ -1999,11 +1999,11 @@ mark.inline-block {
 }
 
 mark.secondary {
-  --mark-back-color: #d32f2f
+  --mark-back-color: #ff00fb;
 }
 
 mark.tertiary {
-  --mark-back-color: #308732
+  --mark-back-color: #308732;
 }
 
 mark.tag {
@@ -2013,7 +2013,7 @@ mark.tag {
 
 :root {
   --progress-back-color: #ddd;
-  --progress-fore-color: #555
+  --progress-fore-color: #555;
 }
 
 progress {
