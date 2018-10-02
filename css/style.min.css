@@ -731,7 +731,7 @@ a:focus {
 .card.error {
   --card-back-color: #adb71ce0;
   --card-fore-color: #f8f8f8;
-  --card-border-color: #a71a1a
+  --card-border-color: #a7a51a;
 }
 
 .card>.section.dark {
