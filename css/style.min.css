@@ -735,7 +735,7 @@ a:focus {
 }
 
 .card>.section.dark {
-  --card-back-color: #e0e0e0
+  --card-back-color: #e0e0e0;
 }
 
 .card>.section.double-padded {
@@ -1069,7 +1069,7 @@ button.primary,
 .button.primary,
 [role="button"].primary {
   --button-back-color: #1976d2;
-  --button-fore-color: #f8f8f8
+  --button-fore-color: #f8f8f8;
 }
 
 button.primary:hover,
@@ -1084,7 +1084,7 @@ button.primary:focus,
 .button.primary:focus,
 [role="button"].primary:hover,
 [role="button"].primary:focus {
-  --button-hover-back-color: #1565c0
+  --button-hover-back-color: #1565c0;
 }
 
 button.secondary,
@@ -1093,8 +1093,8 @@ button.secondary,
 [type="reset"].secondary,
 .button.secondary,
 [role="button"].secondary {
-  --button-back-color: #d32f2f;
-  --button-fore-color: #f8f8f8
+  --button-back-color: #3cff00;
+  --button-fore-color: #f8f8f8;
 }
 
 button.secondary:hover,
