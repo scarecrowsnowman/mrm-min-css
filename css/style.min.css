@@ -1109,7 +1109,7 @@ button.secondary:focus,
 .button.secondary:focus,
 [role="button"].secondary:hover,
 [role="button"].secondary:focus {
-  --button-hover-back-color: #c62828
+  --button-hover-back-color: #c68128;
 }
 
 button.tertiary,
